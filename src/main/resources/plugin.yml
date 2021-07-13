@@ -1,0 +1,17 @@
+name: OvTeleportPoint
+author: Oveln
+version: 1.0.0
+main: me.oveln.ovteleportpoint.main
+api-version: "1.17"
+commands:
+  otpp:
+    description: ov传送点设置
+    usage: 你在说啥
+permissions:
+  ovteleportpoint.*:
+    description: 插件所有权限
+    children:
+      ovteleportpoint.signadd: false
+      ovteleportpoint.otppadd: false
+      ovteleportpoint.otppdel: false
+      ovteleportpoint.otpplist: false
