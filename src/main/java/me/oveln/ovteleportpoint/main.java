@@ -2,15 +2,16 @@ package me.oveln.ovteleportpoint;
 
 import me.oveln.LS.LS;
 import me.oveln.Listener.BlockBreak;
+import me.oveln.Listener.BlockClick;
+import me.oveln.Listener.InventoryClick;
 import me.oveln.command.otpp;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
-import me.oveln.Listener.BlockClick;
-import me.oveln.Listener.InventoryClick;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

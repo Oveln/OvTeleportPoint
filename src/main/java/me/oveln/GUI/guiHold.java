@@ -11,8 +11,6 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
 
-import static me.oveln.util.ItemStack.MakeItemStack;
-
 public class guiHold implements InventoryHolder {
     protected String name; //GUI标签
     protected int Page , size , id; //页数 ， 高度 ， 当前GUI对应的SignerID

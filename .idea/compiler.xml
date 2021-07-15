@@ -9,5 +9,8 @@
         <module name="OvTeleportPoint" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="OvTeleportPoint" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>

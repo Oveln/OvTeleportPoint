@@ -1,5 +1,6 @@
 package me.oveln.Listener;
 
+import me.oveln.GUI.guiHold;
 import me.oveln.ovteleportpoint.main;
 import me.oveln.util.Chat;
 import org.bukkit.Material;
@@ -11,7 +12,6 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import me.oveln.GUI.guiHold;
 
 import static me.oveln.GUI.guiClose.close;
 import static me.oveln.GUI.guiOpen.open;

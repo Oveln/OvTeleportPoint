@@ -1,5 +1,8 @@
 package me.oveln.command;
 
+import me.oveln.ovteleportpoint.main;
+import me.oveln.ovteleportpoint.teleporter;
+import me.oveln.util.Chat;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -9,9 +12,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.ItemMeta;
-import me.oveln.ovteleportpoint.main;
-import me.oveln.ovteleportpoint.teleporter;
-import me.oveln.util.Chat;
 
 import java.util.ArrayList;
 import java.util.List;
